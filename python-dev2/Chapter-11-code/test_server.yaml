@@ -1,0 +1,11 @@
+-   config:
+        name: test
+-   test:
+        name: test
+        request:
+            method: GET
+            url: http://127.0.0.1
+        validate:
+        -   check: status_code
+            comparator: equals
+            expect: 200

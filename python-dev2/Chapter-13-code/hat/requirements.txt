@@ -1,0 +1,8 @@
+Django==2.2.2
+celery==4.3.0
+django-celery-beat==1.5.0
+mysqlclient==1.4.2.post1
+PyYAML==5.1
+HttpRunner==2.2.2
+gunicorn
+redis
